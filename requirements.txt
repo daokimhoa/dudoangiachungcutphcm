@@ -1,0 +1,12 @@
+flask
+pandas
+numpy
+joblib
+tablib
+requests
+datetime
+pmdarima
+pip install keras
+pip install tensorflow
+
+pip install keras-models

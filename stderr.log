@@ -1,0 +1,1426 @@
+[2024-09-27 15:00:02,129] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 102, in main
+    thang_ht = thang_ht.datetime.strftime('%m/%Y')
+AttributeError: 'str' object has no attribute 'datetime'
+[2024-09-27 15:01:27,916] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 102, in main
+    thang_ht = thang_ht.datetime.strftime('%m/%d/%Y')
+AttributeError: 'str' object has no attribute 'datetime'
+[2024-09-27 15:01:45,896] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 102, in main
+    thang_ht = thang_ht.datetime.strftime('%m/%d/%Y')
+AttributeError: 'str' object has no attribute 'datetime'
+[2024-09-27 15:02:09,409] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 102, in main
+    thang_ht = thang_ht.datetime.strftime('%m/%d/%Y')
+AttributeError: 'str' object has no attribute 'datetime'
+[2024-09-27 15:04:02,406] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/indexes/base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 101, in main
+    thang_ht = row['time']
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/indexes/base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'time'
+[2024-09-27 15:04:38,891] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/indexes/base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 101, in main
+    thang_ht = pd.to_datetime(row['time'])
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/indexes/base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'time'
+[2024-09-27 15:05:11,002] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/indexes/base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 101, in main
+    thang_ht = pd.to_datetime(row['time_1'])
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/indexes/base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'time'
+[2024-09-27 15:06:35,817] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 102, in main
+    thang_ht = thang_ht.datetime.strftime('%m/%d/%Y')
+AttributeError: 'Timestamp' object has no attribute 'datetime'
+[2024-09-27 15:06:57,654] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 102, in main
+    thang_ht = thang_ht.datetime.strftime('%m/%d/%Y')
+AttributeError: 'Timestamp' object has no attribute 'datetime'
+[2024-09-27 15:08:07,086] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 102, in main
+    thang_ht = thang_ht.datetime.strftime('%m/%d/%Y')
+AttributeError: 'Timestamp' object has no attribute 'datetime'
+[2024-09-27 15:10:01,844] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 102, in main
+    thang_ht = thang_ht.strftime('%m/%d/%Y')
+AttributeError: 'Timestamp' object has no attribute 'datetime'
+[2024-09-27 15:12:21,540] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 113, in main
+    term_day = term_day + relativedelta(months=+1)
+TypeError: must be str, not relativedelta
+[2024-09-27 15:13:17,789] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 113, in main
+    term_day = term_day + relativedelta(months=+1)
+TypeError: must be str, not relativedelta
+[2024-09-27 15:13:54,721] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 107, in main
+    term_day=term_day.strftime('%m/%d/%Y')
+AttributeError: 'str' object has no attribute 'strftime'
+[2024-09-27 15:14:18,085] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 107, in main
+    term_day=term_day.strftime('%m/%d/%Y')
+AttributeError: 'str' object has no attribute 'strftime'
+[2024-09-27 15:16:40,914] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 107, in main
+    #term_day=term_day.strftime('%m/%d/%Y')
+AttributeError: 'str' object has no attribute 'strftime'
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.35 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.12 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.672 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.33 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.13 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.661 seconds
+[2024-09-27 15:20:55,149] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/indexes/base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'time_1'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 100, in main
+    thang_ht = pd.to_datetime(row['time_1'])
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/indexes/base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'time_1'
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.26 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.15 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.02 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.746 seconds
+[2024-09-27 15:21:21,597] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/indexes/base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'time_1'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 100, in main
+    thang_ht = pd.to_datetime(row['time_1'])
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/series.py", line 990, in _get_value
+    loc = self.index.get_loc(label)
+  File "/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pandas/core/indexes/base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'time_1'
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=597.153, Time=0.33 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=635.493, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=597.517, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=603.261, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=633.562, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=599.132, Time=0.07 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=599.140, Time=0.08 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=598.491, Time=0.05 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=597.167, Time=0.05 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=601.142, Time=0.09 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=595.645, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=601.910, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=595.843, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=597.605, Time=0.05 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=597.618, Time=0.04 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=596.887, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=595.617, Time=0.02 sec
+ ARIMA(3,1,0)(0,0,0)[0]             : AIC=597.612, Time=0.03 sec
+ ARIMA(3,1,1)(0,0,0)[0]             : AIC=599.588, Time=0.04 sec
+
+Best model:  ARIMA(2,1,0)(0,0,0)[0]          
+Total fit time: 1.094 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=461.421, Time=0.04 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=471.333, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=461.436, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=464.653, Time=0.06 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=469.664, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=463.421, Time=0.06 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=463.421, Time=0.06 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=462.755, Time=0.04 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=461.616, Time=0.03 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=465.420, Time=0.05 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=460.012, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=463.339, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=460.147, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=462.010, Time=0.04 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=462.011, Time=0.03 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=461.228, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=460.165, Time=0.02 sec
+ ARIMA(2,1,2)(0,0,0)[0]             : AIC=464.012, Time=0.03 sec
+
+Best model:  ARIMA(1,1,1)(0,0,0)[0]          
+Total fit time: 0.590 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=466.462, Time=0.04 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=469.802, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=464.676, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=464.565, Time=0.06 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=467.851, Time=0.01 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=466.482, Time=0.03 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=467.614, Time=0.06 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=462.600, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=464.505, Time=0.03 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=464.527, Time=0.03 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=462.728, Time=0.02 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=465.642, Time=0.05 sec
+
+Best model:  ARIMA(0,1,1)(0,0,0)[0]          
+Total fit time: 0.375 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=191.508, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=203.853, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=189.549, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=191.841, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=202.248, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=191.525, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.18 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=188.838, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=190.726, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=190.674, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=191.869, Time=0.02 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=192.609, Time=0.06 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.432 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=191.508, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=203.853, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=189.549, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=191.841, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=202.248, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=191.525, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.21 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=188.838, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=190.726, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=190.674, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=191.869, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=192.609, Time=0.06 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.469 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=457.391, Time=0.08 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=481.765, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=455.422, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=463.898, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=480.143, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=457.365, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=458.933, Time=0.08 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=454.792, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=456.637, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=456.711, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=463.424, Time=0.02 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=457.962, Time=0.05 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.406 seconds
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=753.927, Time=0.01 sec
+Total fit time: 0.012 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=461.421, Time=0.04 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=471.333, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=461.436, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=464.653, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=469.664, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=463.421, Time=0.08 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=463.421, Time=0.05 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=462.755, Time=0.04 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=461.616, Time=0.03 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=465.420, Time=0.06 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=460.012, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=463.339, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=460.147, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=462.010, Time=0.04 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=462.011, Time=0.03 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=461.228, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=460.165, Time=0.02 sec
+ ARIMA(2,1,2)(0,0,0)[0]             : AIC=464.012, Time=0.03 sec
+
+Best model:  ARIMA(1,1,1)(0,0,0)[0]          
+Total fit time: 0.569 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=513.121, Time=0.05 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=517.982, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=511.584, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=513.363, Time=0.05 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=516.870, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=512.984, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=513.786, Time=0.09 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=511.300, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=512.451, Time=0.02 sec/home/xjpofimmhosting/virtualenv/dotproperty/3.6/lib64/python3.6/site-packages/pmdarima/arima/auto.py:460: UserWarning: Input time-series is completely constant; returning a (0, 0, 0) ARMA.
+  warnings.warn('Input time-series is completely constant; '
+
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=512.704, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=513.026, Time=0.02 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=512.715, Time=0.06 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.413 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=290.264, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=302.184, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=288.302, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=290.676, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=300.513, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=290.264, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.18 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=287.250, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=289.994, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=291.248, Time=0.03 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.412 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=290.264, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=302.184, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=288.302, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=290.676, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=300.513, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=290.264, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.19 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=287.250, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=289.994, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=291.248, Time=0.03 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.411 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=290.264, Time=0.32 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=302.184, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=288.302, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=290.676, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=300.513, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=290.264, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.21 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=287.250, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=289.994, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=291.248, Time=0.03 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.781 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=290.264, Time=0.04 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=302.184, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=288.302, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=290.676, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=300.513, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=290.264, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.22 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=287.250, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=289.994, Time=0.02 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=291.248, Time=0.04 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.470 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=290.264, Time=0.04 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=302.184, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=288.302, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=290.676, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=300.513, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=290.264, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.22 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=287.250, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=289.994, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=291.248, Time=0.03 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.453 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.05 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.05 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.14 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.327 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.05 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.06 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.07 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.17 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.405 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.33 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.10 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.576 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.33 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.11 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.658 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=597.153, Time=0.10 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=635.493, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=597.517, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=603.261, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=633.562, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=599.132, Time=0.08 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=599.140, Time=0.08 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=598.491, Time=0.06 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=597.167, Time=0.05 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=601.142, Time=0.10 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=595.645, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=601.910, Time=0.03 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=595.843, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=597.605, Time=0.05 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=597.618, Time=0.04 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=596.887, Time=0.03 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=595.617, Time=0.02 sec
+ ARIMA(3,1,0)(0,0,0)[0]             : AIC=597.612, Time=0.03 sec
+ ARIMA(3,1,1)(0,0,0)[0]             : AIC=599.588, Time=0.04 sec
+
+Best model:  ARIMA(2,1,0)(0,0,0)[0]          
+Total fit time: 0.870 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=597.153, Time=0.05 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=635.493, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=597.517, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=603.261, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=633.562, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=599.132, Time=0.08 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=599.140, Time=0.08 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=598.491, Time=0.06 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=597.167, Time=0.05 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=601.142, Time=0.09 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=595.645, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=601.910, Time=0.03 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=595.843, Time=0.02 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=597.605, Time=0.05 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=597.618, Time=0.05 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=596.887, Time=0.03 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=595.617, Time=0.02 sec
+ ARIMA(3,1,0)(0,0,0)[0]             : AIC=597.612, Time=0.03 sec
+ ARIMA(3,1,1)(0,0,0)[0]             : AIC=599.588, Time=0.05 sec
+
+Best model:  ARIMA(2,1,0)(0,0,0)[0]          
+Total fit time: 0.824 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.05 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.08 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.13 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.362 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.07 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.05 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.06 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.17 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.03 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.452 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.04 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.14 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.303 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=461.421, Time=0.06 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=471.333, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=461.436, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=464.653, Time=0.07 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=469.664, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=463.421, Time=0.06 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=463.421, Time=0.07 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=462.755, Time=0.05 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=461.616, Time=0.04 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=465.420, Time=0.07 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=460.012, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=463.339, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=460.147, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=462.010, Time=0.05 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=462.011, Time=0.03 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=461.228, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=460.165, Time=0.03 sec
+ ARIMA(2,1,2)(0,0,0)[0]             : AIC=464.012, Time=0.03 sec
+
+Best model:  ARIMA(1,1,1)(0,0,0)[0]          
+Total fit time: 0.697 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.36 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.14 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.687 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=597.153, Time=0.37 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=635.493, Time=0.05 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=597.517, Time=0.04 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=603.261, Time=0.05 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=633.562, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=599.132, Time=0.09 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=599.140, Time=0.10 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=598.491, Time=0.06 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=597.167, Time=0.06 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=601.142, Time=0.10 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=595.645, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=601.910, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=595.843, Time=0.02 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=597.605, Time=0.05 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=597.618, Time=0.04 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=596.887, Time=0.03 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=595.617, Time=0.02 sec
+ ARIMA(3,1,0)(0,0,0)[0]             : AIC=597.612, Time=0.03 sec
+ ARIMA(3,1,1)(0,0,0)[0]             : AIC=599.588, Time=0.05 sec
+
+Best model:  ARIMA(2,1,0)(0,0,0)[0]          
+Total fit time: 1.315 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=290.264, Time=0.04 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=302.184, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=288.302, Time=0.05 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=290.676, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=300.513, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=290.264, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.24 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=287.250, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=289.994, Time=0.02 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=291.248, Time=0.04 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.552 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.06 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.04 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.12 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.338 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=597.153, Time=0.07 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=635.493, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=597.517, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=603.261, Time=0.08 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=633.562, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=599.132, Time=0.10 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=599.140, Time=0.09 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=598.491, Time=0.06 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=597.167, Time=0.06 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=601.142, Time=0.10 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=595.645, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=601.910, Time=0.03 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=595.843, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=597.605, Time=0.05 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=597.618, Time=0.05 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=596.887, Time=0.03 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=595.617, Time=0.03 sec
+ ARIMA(3,1,0)(0,0,0)[0]             : AIC=597.612, Time=0.03 sec
+ ARIMA(3,1,1)(0,0,0)[0]             : AIC=599.588, Time=0.05 sec
+
+Best model:  ARIMA(2,1,0)(0,0,0)[0]          
+Total fit time: 0.941 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=461.421, Time=0.05 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=471.333, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=461.436, Time=0.04 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=464.653, Time=0.06 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=469.664, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=463.421, Time=0.07 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=463.421, Time=0.06 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=462.755, Time=0.04 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=461.616, Time=0.04 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=465.420, Time=0.07 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=460.012, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=463.339, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=460.147, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=462.010, Time=0.04 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=462.011, Time=0.04 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=461.228, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=460.165, Time=0.03 sec
+ ARIMA(2,1,2)(0,0,0)[0]             : AIC=464.012, Time=0.04 sec
+
+Best model:  ARIMA(1,1,1)(0,0,0)[0]          
+Total fit time: 0.696 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=466.462, Time=0.07 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=469.802, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=464.676, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=464.565, Time=0.09 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=467.851, Time=0.01 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=466.482, Time=0.04 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=467.614, Time=0.08 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=462.600, Time=0.03 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=464.505, Time=0.03 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=464.527, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=462.728, Time=0.01 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=465.642, Time=0.06 sec
+
+Best model:  ARIMA(0,1,1)(0,0,0)[0]          
+Total fit time: 0.491 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=191.508, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=203.853, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=189.549, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=191.841, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=202.248, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=191.525, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.20 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=188.838, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=190.726, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=190.674, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=191.869, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=192.609, Time=0.07 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.472 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=191.508, Time=0.04 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=203.853, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=189.549, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=191.841, Time=0.05 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=202.248, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=191.525, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.22 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=188.838, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=190.726, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=190.674, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=191.869, Time=0.02 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=192.609, Time=0.07 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.32 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.14 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.689 seconds
+
+Total fit time: 0.534 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=457.391, Time=0.06 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=481.765, Time=0.04 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=455.422, Time=0.04 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=463.898, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=480.143, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=457.365, Time=0.05 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=458.933, Time=0.09 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=454.792, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=456.637, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=456.711, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=463.424, Time=0.02 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=457.962, Time=0.06 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.462 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=461.421, Time=0.06 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=471.333, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=461.436, Time=0.07 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=464.653, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=469.664, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=463.421, Time=0.08 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=463.421, Time=0.07 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=462.755, Time=0.04 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=461.616, Time=0.04 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=465.420, Time=0.08 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=460.012, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=463.339, Time=0.03 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=460.147, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=462.010, Time=0.04 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=462.011, Time=0.04 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=461.228, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=460.165, Time=0.02 sec
+ ARIMA(2,1,2)(0,0,0)[0]             : AIC=464.012, Time=0.04 sec
+
+Best model:  ARIMA(1,1,1)(0,0,0)[0]          
+Total fit time: 0.720 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=513.121, Time=0.07 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=517.982, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=511.584, Time=0.04 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=513.363, Time=0.06 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=516.870, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=512.984, Time=0.05 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=513.786, Time=0.11 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=511.300, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=512.451, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=512.704, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=513.026, Time=0.02 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=512.715, Time=0.07 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.496 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=290.264, Time=0.04 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=302.184, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=288.302, Time=0.06 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=290.676, Time=0.05 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=300.513, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=290.264, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.22 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=287.250, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=289.994, Time=0.02 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=291.248, Time=0.04 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.554 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=290.264, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=302.184, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=288.302, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=290.676, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=300.513, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=290.264, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.20 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=287.250, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=289.994, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=291.248, Time=0.03 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.424 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.08 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.07 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.05 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.14 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.415 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.24 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.06 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.14 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.717 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.43 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.12 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.669 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=290.264, Time=0.33 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=302.184, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=288.302, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=290.676, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=300.513, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=290.264, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.19 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=287.250, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=289.994, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=291.248, Time=0.03 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.804 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=191.508, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=203.853, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=189.549, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=191.841, Time=0.05 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=202.248, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=191.525, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.19 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=188.838, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=190.726, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=190.674, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=191.869, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=192.609, Time=0.06 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.479 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=461.421, Time=0.41 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=471.333, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=461.436, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=464.653, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=469.664, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=463.421, Time=0.06 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=463.421, Time=0.06 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=462.755, Time=0.04 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=461.616, Time=0.03 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=465.420, Time=0.06 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=460.012, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=463.339, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=460.147, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=462.010, Time=0.04 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=462.011, Time=0.03 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=461.228, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=460.165, Time=0.02 sec
+ ARIMA(2,1,2)(0,0,0)[0]             : AIC=464.012, Time=0.03 sec
+
+Best model:  ARIMA(1,1,1)(0,0,0)[0]          
+Total fit time: 0.932 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=597.153, Time=0.11 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=635.493, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=597.517, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=603.261, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=633.562, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=599.132, Time=0.07 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=599.140, Time=0.08 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=598.491, Time=0.05 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=597.167, Time=0.05 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=601.142, Time=0.09 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=595.645, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=601.910, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=595.843, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=597.605, Time=0.05 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=597.618, Time=0.05 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=596.887, Time=0.03 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=595.617, Time=0.03 sec
+ ARIMA(3,1,0)(0,0,0)[0]             : AIC=597.612, Time=0.03 sec
+ ARIMA(3,1,1)(0,0,0)[0]             : AIC=599.588, Time=0.05 sec
+
+Best model:  ARIMA(2,1,0)(0,0,0)[0]          
+Total fit time: 0.826 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.34 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.12 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.572 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.33 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.11 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.576 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.23 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.12 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.622 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=461.421, Time=0.34 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=471.333, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=461.436, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=464.653, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=469.664, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=463.421, Time=0.05 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=463.421, Time=0.06 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=462.755, Time=0.03 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=461.616, Time=0.03 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=465.420, Time=0.06 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=460.012, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=463.339, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=460.147, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=462.010, Time=0.04 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=462.011, Time=0.03 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=461.228, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=460.165, Time=0.02 sec
+ ARIMA(2,1,2)(0,0,0)[0]             : AIC=464.012, Time=0.03 sec
+
+Best model:  ARIMA(1,1,1)(0,0,0)[0]          
+Total fit time: 0.864 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.39 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.14 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.675 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.33 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.11 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.625 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=513.121, Time=0.34 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=517.982, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=511.584, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=513.363, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=516.870, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=512.984, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=513.786, Time=0.07 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=511.300, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=512.451, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=512.704, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=513.026, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=512.715, Time=0.04 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.699 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=461.421, Time=0.33 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=471.333, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=461.436, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=464.653, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=469.664, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=463.421, Time=0.05 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=463.421, Time=0.05 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=462.755, Time=0.03 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=461.616, Time=0.03 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=465.420, Time=0.06 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=460.012, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=463.339, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=460.147, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=462.010, Time=0.03 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=462.011, Time=0.03 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=461.228, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=460.165, Time=0.02 sec
+ ARIMA(2,1,2)(0,0,0)[0]             : AIC=464.012, Time=0.03 sec
+
+Best model:  ARIMA(1,1,1)(0,0,0)[0]          
+Total fit time: 0.819 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=191.508, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=203.853, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=189.549, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=191.841, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=202.248, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=191.525, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.17 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=188.838, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=190.726, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=190.674, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=191.869, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=192.609, Time=0.05 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.404 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=597.153, Time=0.07 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=635.493, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=597.517, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=603.261, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=633.562, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=599.132, Time=0.07 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=599.140, Time=0.08 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=598.491, Time=0.05 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=597.167, Time=0.05 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=601.142, Time=0.08 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=595.645, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=601.910, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=595.843, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=597.605, Time=0.04 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=597.618, Time=0.03 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=596.887, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=595.617, Time=0.02 sec
+ ARIMA(3,1,0)(0,0,0)[0]             : AIC=597.612, Time=0.02 sec
+ ARIMA(3,1,1)(0,0,0)[0]             : AIC=599.588, Time=0.04 sec
+
+Best model:  ARIMA(2,1,0)(0,0,0)[0]          
+Total fit time: 0.724 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=191.508, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=203.853, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=189.549, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=191.841, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=202.248, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=191.525, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.19 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=188.838, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=190.726, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=190.674, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=191.869, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=192.609, Time=0.07 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.457 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=461.421, Time=0.04 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=471.333, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=461.436, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=464.653, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=469.664, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=463.421, Time=0.11 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=463.421, Time=0.06 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=462.755, Time=0.04 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=461.616, Time=0.03 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=465.420, Time=0.06 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=460.012, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=463.339, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=460.147, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=462.010, Time=0.04 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=462.011, Time=0.03 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=461.228, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=460.165, Time=0.02 sec
+ ARIMA(2,1,2)(0,0,0)[0]             : AIC=464.012, Time=0.04 sec
+
+Best model:  ARIMA(1,1,1)(0,0,0)[0]          
+Total fit time: 0.639 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=466.462, Time=0.33 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=469.802, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=464.676, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=464.565, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=467.851, Time=0.01 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=466.482, Time=0.03 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=467.614, Time=0.05 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=462.600, Time=0.01 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=464.505, Time=0.02 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=464.527, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=462.728, Time=0.01 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=465.642, Time=0.04 sec
+
+Best model:  ARIMA(0,1,1)(0,0,0)[0]          
+Total fit time: 0.648 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=457.391, Time=0.34 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=481.765, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=455.422, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=463.898, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=480.143, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=457.365, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=458.933, Time=0.06 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=454.792, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=456.637, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=456.711, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=463.424, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=457.962, Time=0.04 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.704 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=290.264, Time=0.32 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=302.184, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=288.302, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=290.676, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=300.513, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=290.264, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.16 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=287.250, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=289.246, Time=0.01 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=289.246, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=289.994, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=291.248, Time=0.03 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.728 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=466.462, Time=0.33 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=469.802, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=464.676, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=464.565, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=467.851, Time=0.01 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=466.482, Time=0.03 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=467.614, Time=0.06 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=462.600, Time=0.01 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=464.505, Time=0.02 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=464.527, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=462.728, Time=0.01 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=465.642, Time=0.04 sec
+
+Best model:  ARIMA(0,1,1)(0,0,0)[0]          
+Total fit time: 0.643 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=191.508, Time=0.32 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=203.853, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=189.549, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=191.841, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=202.248, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=191.525, Time=0.02 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.17 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=188.838, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=190.726, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=190.674, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=191.869, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=192.609, Time=0.06 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.800 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=191.508, Time=0.32 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=203.853, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=189.549, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=191.841, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=202.248, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=191.525, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.18 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=188.838, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=190.726, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=190.674, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=191.869, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=192.609, Time=0.06 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.778 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=422.783, Time=0.34 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=434.110, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=421.856, Time=0.05 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=425.308, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=434.247, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=422.873, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=424.058, Time=0.15 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=424.446, Time=0.01 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0] intercept
+Total fit time: 0.662 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=457.391, Time=0.34 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=481.765, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=455.422, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=463.898, Time=0.05 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=480.143, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=457.365, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=458.933, Time=0.07 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=454.792, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=456.637, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=456.711, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=463.424, Time=0.02 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=457.962, Time=0.05 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]          
+Total fit time: 0.719 seconds
